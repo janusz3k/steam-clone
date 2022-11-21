@@ -9,8 +9,7 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>Zaloguj się</title>
-
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles.css"></link>
 </head>
 
 <body>
@@ -22,8 +21,15 @@
 	<div id="page_content">
 	    <h1>Zaloguj się</h1>
         <div class="login">
-
-        </div>
+            Wpisz swój nick:
+         <input type="text" id="nick"></input></br>
+            Wpisz swoje hasło:
+         <input type="password" id="haslo"></input></br>
+         <label>
+         <input type="checkbox" value="akceptuj">Zaakceptuj regulamin strony!<br>
+         </label>
+         <input type="submit" value="zaakceptuj">
+         </div>
 	</div>
 	<div id="footer">
 
