@@ -15,21 +15,22 @@
 <body>
     <div id="global_header">
         <div id="menu">
-            <img style="height: 100px;" src="../img/logo.png" alt="Logo"/>
+            <img style="height: 100px; float: left;" src="../img/logo.png" alt="Logo"/>
+            <span style="position: absolute; padding-top: 65px;">Filip Entertainment</span>
         </div>
     </div>
+	<h1 style="text-shadow: 2px 2px red;" >Zaloguj się</h1>
 	<div id="page_content">
-	    <h1>Zaloguj się</h1>
-        <div class="login">
-            Wpisz swój nick:
-         <input type="text" id="nick"></input></br>
-            Wpisz swoje hasło:
-         <input type="password" id="haslo"></input></br>
-         <label>
-         <input type="checkbox" value="akceptuj">Zaakceptuj regulamin strony!<br>
-         </label>
-         <input type="submit" value="zaakceptuj">
+	    <div id="form">
+             <input type="text" id="nick" placeholder="Wpisz swój nick" class="normal_input" ></input>
+             <input type="password" id="haslo" placeholder="Wpisz swoje hasło" class="normal_input" ></input>
+             </br>
+             <label>
+                <input type="checkbox" value="akceptuj">Zaakceptuj regulamin strony!<br>
+             </label>
+             <input class="confirm_button" type="submit" value="Zaloguj się">
          </div>
+         <img class="qr_code" src="../img/qr-code.png" alt="QR code"/>
 	</div>
 	<div id="footer">
 

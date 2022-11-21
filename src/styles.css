@@ -1,5 +1,6 @@
 * {
     color:white;
+    font-family: "Motiva Sans", Sans-serif;
 }
 
 h1 {
@@ -34,4 +35,34 @@ body {
 #footer {
     position: absolute;
     bottom: 0;
+}
+
+#page_content {
+    background-color: #171a21;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+    min-height: 300px
+}
+
+#form {
+    float: left;
+    width: 50%;
+    padding: 30px;
+}
+
+.qr_code {
+    height: 200px;
+    margin-left: 10px;
+    padding-top: 30px;
+}
+
+.normal_input {
+    width: 85%;
+}
+
+.confirm_button {
+    background-color: green;
+    width: 50%;
+    height: 35px;
 }
